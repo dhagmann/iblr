@@ -13,4 +13,15 @@ Install the latest version with:
 devtools::install_github("dhagmann/iblr", build_vignettes = FALSE)
 ```
 
+## Getting Started
+To run a simulation, first define the model parameters, then run the simulation function.
+```R
+
+```
+
+You can recover the initial parameters (with some noise) using the fitting function.
+```R
+
+```
+
 ## References
