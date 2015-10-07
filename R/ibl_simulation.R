@@ -26,8 +26,6 @@ ibl_simulation <- function(gambles,
     noptions <- length(gambles)
     
     if(parallel) {
-        library(doParallel) # Move this into recommended DEPENDENCIES once we create a package
-        
         # Set the number of cores to be used
         if(is.null(cores)) {
             cl <- makeCluster(detectCores()/2,  # There may be a better way to do this?
