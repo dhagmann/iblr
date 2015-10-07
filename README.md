@@ -1,5 +1,5 @@
 # iblr
-This R library implements the Instance Based Learning Theory model proposed by Gonzalez, Lerch, and Lebiere Manos (2003).
+This R library implements the Instance Based Learning Theory model proposed by Gonzalez, Lerch, and Lebiere (2003).
 
 It contains two primary functions:  
 * **ibl_simulation** simulates data based on parameters about  
