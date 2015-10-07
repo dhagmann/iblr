@@ -3,7 +3,7 @@ Title: IBL model simulation and parameter fitting
 Version: 0.0.0.9000
 Date: 2015-10-07
 Authors@R: c(person("David", "Hagmann", email = "hagmann@cmu.edu", role = c("aut", "cre")),
-             person("Emmanouil", "Konstantinidis", email = "em.konstantinidis@gmail.com", role = c("aut", "cre")))
+             person("Emmanouil", "Konstantinidis", email = "em.konstantinidis@gmail.com", role = c("aut")))
 Description: What the package does (one paragraph).
 Depends: R (>= 3.0.0), dplyr, doParallel
 License: MIT
