@@ -10,7 +10,7 @@ Install the latest version with:
 
 ```R
 # install.packages("devtools")
-devtools::install_github("dhagmann/iblr", build_vignettes = FALSE)
+devtools::install_github("dhagmann/iblr", auth_token = "abc")  # get the token from https://github.com/settings/tokens
 ```
 
 ## Getting Started
