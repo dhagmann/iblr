@@ -1,0 +1,19 @@
+Package: iblr
+Title: IBL model simulation and parameter fitting
+Version: 0.0.0.9000
+Date: 2015-10-08
+Authors@R: c(person("David", "Hagmann", email = "hagmann@cmu.edu",
+                    role = c("aut", "cre")),
+             person("Emmanouil", "Konstantinidis",
+                    email = "em.konstantinidis@gmail.com", role = c("aut")))
+Description: What the package does (one paragraph).
+Depends:
+    R (>= 3.2.2),
+    dplyr (>= 0.4.3),
+    doParallel (>= 1.0.8),
+    ggplot2 (>= 1.0.1),
+    tidyr (>= 0.3.1)
+License: MIT + file LICENSE
+LazyData: true
+URL: https://github.com/dhagmann/iblr
+BugReports: https://github.com/dhagmann/iblr/issues
