@@ -30,5 +30,5 @@ ibl_simulation_plot <- function(simulation, names = NA) {
                          breaks = unique(props$option),
                          labels = ifelse(is.na(names), sapply(1:max(simulation),
                                          function(i) paste("Option", i)),
-                                           names)
+                                           names))
 }
