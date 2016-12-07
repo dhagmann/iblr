@@ -11,7 +11,7 @@
 #'
 #' @return Outputs a ggplot object.
 
-ibl_simulation_plot <- function(simulation) {
+ibl_simulation_plot <- function(simulation, names = NA) {
   props <- cbind(1:nrow(simulation), sapply(1:max(simulation),
                                             function(i) rowMeans(simulation == i))) %>%
     data.frame() %>%
@@ -28,6 +28,7 @@ ibl_simulation_plot <- function(simulation) {
     theme(panel.grid = element_blank()) +
     scale_color_discrete(name = "Choices",
                          breaks = unique(props$option),
-                         labels = sapply(1:max(simulation),
-                                         function(i) paste("Option", i)))
+                         labels = ifelse(is.na(names), sapply(1:max(simulation),
+                                         function(i) paste("Option", i)),
+                                           names)
 }
